@@ -24,31 +24,30 @@ The script follows a simple three-step process:
 2.  **Process Template**: For each row of data, it opens `.docx` templates and dynamically replaces placeholder text with the corresponding data from the Excel file.
 3.  **Generate Output**: It saves the populated documents into the `output/` folder, ready for review and printing.
 
-## 📦 Downloads
-
-Due to GitHub's file size limitations, the compiled executable (`contract_maker.exe`) is not stored in this repository. To get the application, follow these steps:
-
-1.  **Download the file** from the link below:
-    ➡️ [**Download contract_maker.exe from Google Drive**](YOUR_GOOGLE_DRIVE_LINK_HERE)
-
-2.  **Place the downloaded file** into the main project folder (the same folder that contains `data_input.xlsx`).
-
-**Note:** Your browser or operating system may show a warning when downloading an executable file. This is standard security behavior.
-
-
 ## 🏁 Getting Started
 
 There are two ways to use this application: for end-users and for developers.
 
-
 ### For End-Users (The Easy Way)
 
-1.  **Open `data_input.xlsx`**.
-2.  **Fill in the contract details** in the **`Values`** column (Column B). Greyed-out fields are optional.
-3.  **Save and close** the Excel file.
-4.  **Run `contract_maker.exe`**.
-5.  Check the `output/` folder. You will find the generated contract documents inside.
+Follow these steps to set up the application without needing any developer tools.
 
+**Step 1: Download the Project Files**
+1.  Go to the main page of this repository on GitHub.
+2.  Click the green `<> Code` button.
+3.  Select **Download ZIP**.
+4.  Unzip the downloaded file (e.g., `python-pdf-contract-generator-main.zip`) on your computer. This folder contains the `data_input.xlsx` file you will need to edit.
+
+**Step 2: Download the Application Executable (.exe)**
+1.  **[Click here to download `contract_maker.exe` from Google Drive](https://drive.google.com/file/d/1GVAsSgw9n7JNU0VFs6RpfVaz7MFmlksw/view?usp=sharing)**.
+2.  Your browser or OS may show a security warning. This is expected behavior for `.exe` files.
+
+**Step 3: Combine and Run**
+1.  Move the `contract_maker.exe` file you just downloaded into the project folder you unzipped in Step 1.
+2.  The `contract_maker.exe` file should now be in the **same folder** as `data_input.xlsx`.
+3.  Open `data_input.xlsx` and fill in your contract details. Save and close the file.
+4.  Double-click `contract_maker.exe` to run it.
+5.  Check the `output/` folder for your generated documents!
 
 ### For Developers
 
